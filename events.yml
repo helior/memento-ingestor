@@ -1,0 +1,7 @@
+event:
+  ingestor:
+    fileMoved: 'File Moved'
+    fileDeletedManually: 'File deleted manually'
+    fileDetected: 'File detected'
+  db:
+    memoryCreated: 'Memory Created'
