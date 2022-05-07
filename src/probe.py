@@ -15,6 +15,8 @@ class FFProbeResult(NamedTuple):
 
 
 def ffprobe(file_path) -> FFProbeResult:
+  # TODO: check if ffprobe exists on system
+  # TODO: Add ffprobe to docker container
   command_array = ["ffprobe",
                   "-v", "quiet",
                   "-print_format", "json",

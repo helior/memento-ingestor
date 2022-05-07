@@ -1,22 +1,24 @@
+import datetime
 import time
+import os
+from dateutil import parser
 from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
+import requests
 from src.probe import ffprobe
+
+
+
 def on_created(event):
   """
   On Create:
   TODO: info log a new file (event.ingestor.fileDetected, path)
-  TODO: Add to a queue
-  TODO: Probe file
-  TODO: Map probe metadata into Memento data model
   TODO: Move file to organize location
   - ❓Optional into Cloud Storage directory (Is this automatic?)
   - origin
   -- Year number
   --- Week number
   TODO:Save "Memento" record in DB
-
-  - ❓Which DB should I use?
   - SQLite + Cloud Storage (iCloud, Dropbox, etc.)
   - Data Model:
       mID (memento ID)
@@ -27,10 +29,31 @@ def on_created(event):
       tags[]
   """
   print(f"Created: {event.src_path} ")
+  # TODO: Log event
+
+  # Probe
   probe = ffprobe(event.src_path)
+  
+  #Process
+  created_time = parser.parse(probe.get('format').get('tags').get('creation_time'))
+  duration = probe.get('format').get('duration')
+  start_time = created_time - datetime.timedelta(seconds=float(duration))
+
+  # Move 
+  os.rename(event.src_path, "processed-{}", event.src_path)
+
+  # Save
+  data = {
+    "label": probe.get('format').get('filename').rsplit('/', 1)[1],
+    "startTime": start_time,
+    "duration": duration,
+    "filepath": probe.get('format').get('filename'), #TODO: Change to new move location
+  }
+  r = requests.post('http://localhost:8000/api/moment/', data)
+
+  # Log successful completion
   print(probe)
-
-
+  print(r.json())
 
 def on_deleted(event):
   """
@@ -38,7 +61,6 @@ def on_deleted(event):
   TODO: info log manual deletion of a file (event.ingestor.fileDeleted, path)
   """
   print(f"Deleted: {event.src_path} ")
-
 
 def on_modified(event):
 
