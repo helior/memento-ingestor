@@ -24,6 +24,7 @@ Data Model:
 - TODO: Raw probe output mapped to data model (JSON-SCHEMA defined).
 - TODO: On Insert, validate if shape is still as expected (per version of ffprobe, or output changes via new input params)
 - TODO: imperitively map input probe data into Memento shape (automate later)
+May 3, 2022 ⬆ Meaning, map value from one data model, into another. Optinal: transforms in-between (Wait, this is just ETL but automated)
 - TODO: Save to DB
 
 (~ ❓OLY.AI idea ~)
@@ -37,7 +38,7 @@ Data Model:
 
 
 ---
-Generator
+✅ Generator
 ---
 `model.py`
 
@@ -73,6 +74,7 @@ OR...!
 Parse... build full tree, iterate over tree again with tree reference in memory
 - allows sub-classes to have entire tree and generate as deep as it wants
 
+May 3, 2022 What the heck was I talking about ⬆
 
 ---
 Data Model

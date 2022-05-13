@@ -31,29 +31,32 @@ def on_created(event):
   print(f"Created: {event.src_path} ")
   # TODO: Log event
 
-  # Probe
-  probe = ffprobe(event.src_path)
-  
-  #Process
-  created_time = parser.parse(probe.get('format').get('tags').get('creation_time'))
-  duration = probe.get('format').get('duration')
-  start_time = created_time - datetime.timedelta(seconds=float(duration))
+  try:
+    # Probe
+    probe = ffprobe(event.src_path)
 
-  # Move 
-  os.rename(event.src_path, "processed-{}", event.src_path)
+    #Process
+    created_time = parser.parse(probe.get('format').get('tags').get('creation_time'))
+    duration = probe.get('format').get('duration')
+    start_time = created_time - datetime.timedelta(seconds=float(duration))
 
-  # Save
-  data = {
-    "label": probe.get('format').get('filename').rsplit('/', 1)[1],
-    "startTime": start_time,
-    "duration": duration,
-    "filepath": probe.get('format').get('filename'), #TODO: Change to new move location
-  }
-  r = requests.post('http://localhost:8000/api/moment/', data)
+    # Move
+    os.rename(event.src_path, "{}".format(event.src_path))
 
-  # Log successful completion
-  print(probe)
-  print(r.json())
+    # Save
+    data = {
+      "label": probe.get('format').get('filename').rsplit('/', 1)[1],
+      "startTime": start_time,
+      "duration": duration,
+    }
+    files = {'media': open (event.src_path, 'rb')}
+    r = requests.post('http://localhost:8000/api/moment/', files=files, data=data)
+
+    # Log successful completion
+    print(probe)
+    print(r.json())
+  except Exception as e:
+    print(e)
 
 def on_deleted(event):
   """
