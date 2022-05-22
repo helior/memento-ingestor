@@ -50,7 +50,7 @@ def on_created(event):
       "duration": duration,
     }
     files = {'media': open (event.src_path, 'rb')}
-    r = requests.post('http://localhost:8000/api/moment/', files=files, data=data)
+    r = requests.post('http://localhost:8000/api/momentoriginalaudio/', files=files, data=data)
 
     # Log successful completion
     print(probe)
