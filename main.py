@@ -13,20 +13,6 @@ def on_created(event):
   """
   On Create:
   TODO: info log a new file (event.ingestor.fileDetected, path)
-  TODO: Move file to organize location
-  - ❓Optional into Cloud Storage directory (Is this automatic?)
-  - origin
-  -- Year number
-  --- Week number
-  TODO:Save "Memento" record in DB
-  - SQLite + Cloud Storage (iCloud, Dropbox, etc.)
-  - Data Model:
-      mID (memento ID)
-      startTime
-      endTime
-      duration
-      filePath
-      tags[]
   """
   print(f"Created: {event.src_path} ")
   # TODO: Log event
@@ -41,15 +27,18 @@ def on_created(event):
     start_time = created_time - datetime.timedelta(seconds=float(duration))
 
     # Move
-    os.rename(event.src_path, "{}".format(event.src_path))
+    processed_path = './processed' # TODO: or configured path
+    basename = os.path.basename(event.src_path)
+    destination_path = os.path.abspath(os.path.join(processed_path, basename))
+    os.rename(event.src_path, destination_path)
 
     # Save
     data = {
-      "label": probe.get('format').get('filename').rsplit('/', 1)[1],
+      "label": basename,
       "startTime": start_time,
       "duration": duration,
     }
-    files = {'media': open (event.src_path, 'rb')}
+    files = {'media': open (destination_path, 'rb')}
     r = requests.post('http://localhost:8000/api/momentoriginalaudio/', files=files, data=data)
 
     # Log successful completion
@@ -97,7 +86,7 @@ if __name__ == '__main__':
   event_handler.on_modified = on_modified
   event_handler.on_moved = on_moved
 
-  path = '.'
+  path = './watchfolder' # TODO: or configured path
   go_recursively = True
   observer = Observer()
   observer.schedule(event_handler, path, go_recursively)

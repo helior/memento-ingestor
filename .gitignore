@@ -1,2 +1,7 @@
+watchfolder/*
+!watchfolder/.gitkeep
+processed/*
+!processed/.gitkeep
+
 venv
 */__pycache__
