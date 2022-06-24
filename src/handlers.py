@@ -34,7 +34,7 @@ def on_created(event):
       "startTime": start_time,
       "duration": duration,
     }
-    files = {'media': open (destination_path, 'rb')}
+    files = {'audioFile': open (destination_path, 'rb')}
     r = requests.post('http://localhost:8000/api/momentoriginalaudio/', files=files, data=data)
 
     # Log successful completion
