@@ -1,3 +1,4 @@
+from signal import SIGINT, SIGTERM
 import time
 from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
@@ -35,10 +36,14 @@ if __name__ == '__main__':
   observer.start()
 
   # Do nothing infinitely, unless interrupted
-  # TODO: except KILLSIG??
   try:
     while True:
       time.sleep(1)
   except KeyboardInterrupt:
     observer.stop()
     observer.join()
+    print('\n❌ Terminated by Keyboard Interruption.')
+  except SIGTERM:
+    print('\n❌ Terminated by SIGTERM.')
+  except SIGINT:
+    print ('\n❌ Terminated by SIGINT.')
