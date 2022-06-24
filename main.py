@@ -27,7 +27,7 @@ if __name__ == '__main__':
   event_handler.on_moved = on_moved
 
   watchfolder_path = './watchfolder' # TODO: or from configuration
-  go_recursively = False
+  go_recursively = True
   observer = Observer()
   observer.schedule(event_handler, watchfolder_path, go_recursively)
 
