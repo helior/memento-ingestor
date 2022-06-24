@@ -24,12 +24,7 @@ def on_created(event):
     created_time = parser.parse(probe.get('format').get('tags').get('creation_time'))
     duration = probe.get('format').get('duration')
     start_time = created_time - datetime.timedelta(seconds=float(duration))
-
-    # Move
-    processed_path = './processed' # TODO: or from configuration
     basename = os.path.basename(event.src_path)
-    destination_path = os.path.abspath(os.path.join(processed_path, basename))
-    os.rename(event.src_path, destination_path)
 
     # Save.
     data = {
@@ -37,12 +32,19 @@ def on_created(event):
       "startTime": start_time,
       "duration": duration,
     }
-    files = {'audioFile': open (destination_path, 'rb')}
+    files = {'audioFile': open (event.src_path, 'rb')}
     r = requests.post('http://localhost:8000/api/momentoriginalaudio/', files=files, data=data)
 
     # Log: Sucessful upload.
     print(probe)
     print(r.json())
+
+    # Move.
+    processed_path = './processed' # TODO: or from configuration
+    destination_path = os.path.abspath(os.path.join(processed_path, basename))
+    os.rename(event.src_path, destination_path)
+    # os.remove(event.src_path) # TODO: remove files instead, but only after you've detected duplicates
+
   except Exception as e:
     print(e)
 
