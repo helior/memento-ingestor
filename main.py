@@ -41,9 +41,10 @@ if __name__ == '__main__':
       time.sleep(1)
   except KeyboardInterrupt:
     observer.stop()
-    observer.join()
     print('\n❌ Terminated by Keyboard Interruption.')
   except SIGTERM:
     print('\n❌ Terminated by SIGTERM.')
   except SIGINT:
     print ('\n❌ Terminated by SIGINT.')
+
+  observer.join()

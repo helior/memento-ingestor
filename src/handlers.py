@@ -13,11 +13,14 @@ def on_created(event):
   print(f"Created: {event.src_path} ")
   # TODO: Log event
 
+  if event.is_directory:
+    print('!!Is directory!')
+
   try:
     # Probe
     probe = ffprobe(event.src_path)
 
-    #Process
+    #Pre-process
     created_time = parser.parse(probe.get('format').get('tags').get('creation_time'))
     duration = probe.get('format').get('duration')
     start_time = created_time - datetime.timedelta(seconds=float(duration))
@@ -28,7 +31,7 @@ def on_created(event):
     destination_path = os.path.abspath(os.path.join(processed_path, basename))
     os.rename(event.src_path, destination_path)
 
-    # Save
+    # Save.
     data = {
       "label": basename,
       "startTime": start_time,
@@ -37,7 +40,7 @@ def on_created(event):
     files = {'audioFile': open (destination_path, 'rb')}
     r = requests.post('http://localhost:8000/api/momentoriginalaudio/', files=files, data=data)
 
-    # Log successful completion
+    # Log: Sucessful upload.
     print(probe)
     print(r.json())
   except Exception as e:
