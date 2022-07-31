@@ -1,5 +1,7 @@
 import datetime
 from dateutil import parser
+from yaml import Dumper, dump
+
 import requests
 import os
 
@@ -26,6 +28,10 @@ def on_created(event):
     start_time = created_time - datetime.timedelta(seconds=float(duration))
     basename = os.path.basename(event.src_path)
 
+    # TODO: Check if already exists in DB, if so skip. (compare startTime AND duration?)
+    
+    # TODO: Somehow get Voice Memo's label value from Apple's SQLite instance
+    
     # Save.
     data = {
       "label": basename,
@@ -36,8 +42,12 @@ def on_created(event):
     r = requests.post('http://localhost:8000/api/momentoriginalaudio/', files=files, data=data)
 
     # Log: Sucessful upload.
-    print(probe)
-    print(r.json())
+    # TODO: Log event
+    print('— – - • - – — ')
+    for key, value in probe.items():
+      print('🔺 {}:'.format(key))
+      print(dump(probe, Dumper=Dumper))
+    print('— – - • - – — ')
 
     # Move.
     processed_path = './processed' # TODO: or from configuration
