@@ -5,7 +5,7 @@ from yaml import Dumper, dump
 import requests
 import os
 
-from src.probe import ffprobe
+from .probe import ffprobe
 
 def on_created(event):
   """
@@ -29,9 +29,9 @@ def on_created(event):
     basename = os.path.basename(event.src_path)
 
     # TODO: Check if already exists in DB, if so skip. (compare startTime AND duration?)
-    
+
     # TODO: Somehow get Voice Memo's label value from Apple's SQLite instance
-    
+
     # Save.
     data = {
       "label": basename,
@@ -39,15 +39,22 @@ def on_created(event):
       "duration": duration,
     }
     files = {'audioFile': open (event.src_path, 'rb')}
-    r = requests.post('http://localhost:8000/api/momentoriginalaudio/', files=files, data=data)
+    # print(data)
+    # print('— – - • - – — ')
+    r = requests.post('http://localhost:8000/api/mementooriginalaudio/', files=files, data=data)
+    try:
+      r.raise_for_status()
+    except requests.exceptions.HTTPError as err:
+      print(err)
 
+    # print('— – - • - – — ')
     # Log: Sucessful upload.
     # TODO: Log event
     print('— – - • - – — ')
     for key, value in probe.items():
       print('🔺 {}:'.format(key))
-      print(dump(probe, Dumper=Dumper))
-    print('— – - • - – — ')
+      # print(dump(probe, Dumper=Dumper))
+    # print('— – - • - – — ')
 
     # Move.
     processed_path = './processed' # TODO: or from configuration
