@@ -44,23 +44,23 @@ def on_created(event):
     r = requests.post('http://localhost:8000/api/mementooriginalaudio/', files=files, data=data)
     try:
       r.raise_for_status()
+      # print('— – - • - – — ')
+      # Log: Sucessful upload.
+      # TODO: Log event
+      print('— – - • - – — ')
+      for key, value in probe.items():
+        print('🔺 {}:'.format(key))
+        # print(dump(probe, Dumper=Dumper))
+      # print('— – - • - – — ')
+
+      # Move.
+      processed_path = './processed' # TODO: or from configuration
+      destination_path = os.path.abspath(os.path.join(processed_path, basename))
+      os.rename(event.src_path, destination_path)
+      # os.remove(event.src_path) # TODO: remove files instead, but only after you've detected duplicates
     except requests.exceptions.HTTPError as err:
       print(err)
 
-    # print('— – - • - – — ')
-    # Log: Sucessful upload.
-    # TODO: Log event
-    print('— – - • - – — ')
-    for key, value in probe.items():
-      print('🔺 {}:'.format(key))
-      # print(dump(probe, Dumper=Dumper))
-    # print('— – - • - – — ')
-
-    # Move.
-    processed_path = './processed' # TODO: or from configuration
-    destination_path = os.path.abspath(os.path.join(processed_path, basename))
-    os.rename(event.src_path, destination_path)
-    # os.remove(event.src_path) # TODO: remove files instead, but only after you've detected duplicates
 
   except Exception as e:
     print(e)
