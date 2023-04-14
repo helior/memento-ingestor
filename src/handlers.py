@@ -19,6 +19,8 @@ def on_created(event):
     print('!!Is directory!')
 
   try:
+    basename = os.path.basename(event.src_path)
+
     # Probe
     probe = ffprobe(event.src_path)
 
@@ -26,11 +28,8 @@ def on_created(event):
     created_time = parser.parse(probe.get('format').get('tags').get('creation_time'))
     duration = probe.get('format').get('duration')
     start_time = created_time - datetime.timedelta(seconds=float(duration))
-    basename = os.path.basename(event.src_path)
 
     # TODO: Check if already exists in DB, if so skip. (compare startTime AND duration?)
-
-    # TODO: Somehow get Voice Memo's label value from Apple's SQLite instance
 
     # Save.
     data = {
@@ -58,11 +57,33 @@ def on_created(event):
       destination_path = os.path.abspath(os.path.join(processed_path, basename))
       os.rename(event.src_path, destination_path)
       # os.remove(event.src_path) # TODO: remove files instead, but only after you've detected duplicates
+      resolved_path = './processed' # TODO: or from configuration
     except requests.exceptions.HTTPError as err:
       print(err)
+      resolved_path = './failures' # TODO: or from configuration
 
+    # print('— – - • - – — ')
+    # Log: Sucessful upload.
+    # TODO: Log event
+    print('— – - • - – — ')
+    # for key, value in probe.items():
+      # print('🔺 {}:'.format(key))
+      # print(dump(probe, Dumper=Dumper))
+    # print('— – - • - – — ')
+
+    # Move.
+    destination_path = os.path.abspath(os.path.join(resolved_path, basename))
+    try:
+      os.rename(event.src_path, destination_path)
+    except OSError as err:
+      print(err)
+      print(destination_path)
+    # os.remove(event.src_path) # TODO: remove files instead, but only after you've detected duplicates
 
   except Exception as e:
+    resolved_path = './failures' # TODO: or from configuration
+    destination_path = os.path.abspath(os.path.join(resolved_path, basename))
+    os.rename(event.src_path, destination_path)
     print(e)
 
 def on_deleted(event):
