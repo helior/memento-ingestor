@@ -3,5 +3,9 @@ watchfolder/*
 processed/*
 !processed/.gitkeep
 
+failures/*
+!failures/.gitkeep
+
+
 venv
 */__pycache__

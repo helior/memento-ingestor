@@ -1,4 +1,4 @@
-~id,~label,~path,~date
+~external_id,~label,~path,~date
 96A087BA-F823-4D02-8027-C24925CC7682,Blaze Meter,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20160409 232232-96A087BA.m4a,481962152.233266
 5A9A1550-1515-45DB-9A91-1E5C27DC5078,Dpim API And Wet Cake,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20160418 143225-5A9A1550.m4a,482707945.381379
 278612E1-E3E6-479D-AD8F-9C2AC280C184,One On I've,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20160505 160300-278612E1.m4a,484182180.072296
@@ -1651,3 +1651,151 @@ C4B6F13C-024E-46FD-9933-C783F2FABBB1,Recording 1095,/Users/helior/Library/Applic
 E015AF78-FFE7-4574-903F-1D149E171967,Recording 1097,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230413 181814-E015AF78.m4a,703073894.563456
 5DC12677-E092-4E13-9982-5909B4990C78,"Test: how much text I can put into the label field that is already a part of the iOS app. When I can extract this information, I can parse it; it’s difficult to edit, so the most practical system is to edit on one session. ",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230413 190613-5DC12677.m4a,703076773.261234
 9139BEFC-C4D7-4EED-97C7-D15D45224A62,Recording 1099,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230413 230622-9139BEFC.m4a,703091182.53799
+B70F6F5D-2F07-4F42-AD6C-AEA609D89941,Recording 1098,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230413 210653-B70F6F5D.m4a,703084013.33232
+1E8D5DFA-C595-493B-866A-0701BAADD540,Go Hotels Ermita,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230414 190033-1E8D5DFA.m4a,703162833.672165
+01E5F9E7-9AFD-4003-BF61-744B1AE2D3DD,"Child will dare to explore, but come back to the caregiver. ",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230414 190111-01E5F9E7.m4a,703162871.57184
+EB3C3EBD-0202-4D98-9EF1-A1D65A5F642A,Recording 1091,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230415 234016-EB3C3EBD.m4a,703266016.300611
+1F901079-BAEA-46B3-B81D-5DB2A2800AE1,Recording 1092,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230415 235700-1F901079.m4a,703267020.636555
+0D126709-B5E7-41AB-A4D4-2CCC2A1632B4,Recording 1093,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230416 000218-0D126709.m4a,703267338.702356
+1C731590-E6B9-4CC5-A43A-B215C0BAFD2D,Recording 1094,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230416 000714-1C731590.m4a,703267634.635447
+DF7131D8-1CEB-489F-88DD-2CE9AD50C09C,Recording 1095,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230416 001217-DF7131D8.m4a,703267937.99516
+7A08B396-DD4F-4CBE-B89F-9E9390B2D9FF,,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230416 214107-7A08B396.m4a,703345267.010362
+C28D7465-60FE-4439-9109-FABFFA08421C,Iloilo South Coastal Road,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230416 214515-C28D7465.m4a,703345515.692774
+C7EF7735-CE17-4BFC-BB79-FA458B2E99B0,Iloilo South Coastal Road 2,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230416 215014-C7EF7735.m4a,703345814.441634
+1A02400F-451B-490A-94DD-5AB6ECDF9C9A,Recording 1097,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230418 001454-1A02400F.m4a,703440894.366028
+67F32D02-DBFA-42B1-831B-76F826955379,Recording 1100,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230418 015725-67F32D02.m4a,703447045.344853
+BCA13C24-30B2-4220-B5DE-6BE205C7E0A2,Recording 1101,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230418 020415-BCA13C24.m4a,703447455.677168
+4ADB9D0D-19A0-40D0-82FE-143FCD0370BE,Recording 1102,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230418 021000-4ADB9D0D.m4a,703447800.282952
+29E89BE7-9DC1-47BE-8372-86933B48F4DF,Recording 1103,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230418 021732-29E89BE7.m4a,703448252.557408
+9F15CF54-79B2-4826-BF7E-6B8B00376600,Recording 1104,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230418 022023-9F15CF54.m4a,703448423.005469
+D84930B9-CDCD-4A1C-B5B3-8E4D49B7DD74,Recording 1105,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230418 023937-D84930B9.m4a,703449577.917038
+60B9F141-9FE3-403B-A9D2-A3B22BA87064,Recording 1106,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230418 025036-60B9F141.m4a,703450236.747468
+E49EC7B9-6D7A-40C6-978C-7BC75E624A9C,New Recording 24,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230418 150436-E49EC7B9.m4a,703494276.779423
+258D2AC7-40DC-44BE-B960-7B2EF7FA2A38,Recording 1107,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230418 150506-258D2AC7.m4a,703494306.906715
+ADBE7738-42A1-4FB7-8EBC-1186A37A366F,New Recording 25,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230419 212508-ADBE7738.m4a,703603508.698873
+C17D7B01-533B-42ED-BFA8-4CC7BA0254A3,Villa Sunset,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 142743-C17D7B01.m4a,703664863.752932
+9BE61627-9FCF-4487-91C0-69CC6EE1D93D,New Recording 24,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 142834.m4a,703664914.399876
+D2F9444C-8B5F-41CB-8E4A-F256DE3EBE03,Recording 1108,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 142855-D2F9444C.m4a,703664935.417376
+B8615321-9E07-4DA4-8CCD-73ADA27D68F1,Conversation with the locals;,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 154437-B8615321.m4a,703669477.093792
+ED38815B-80AF-41B8-BDBC-751EFC3A6CF5,Note to Helior - being kind when being treated poorly,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 154932-ED38815B.m4a,703669772.211515
+C047DD3F-6696-4ACD-86E3-B182D738F62A,"Addendum — negotiation is always a part of the interaction; within relationships, game theory always applies; ",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 155059-C047DD3F.m4a,703669859.205437
+9B91E6D3-A87D-437B-9A5A-363ED44EAA37,"We integrate well with music when it matches our own wave function (our vibe); metaphor for relationships — becoming vulnerable; Geico can make caveman content; not for the foreigners, just for us",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 160931-9B91E6D3.m4a,703670971.804081
+A30F2D1A-6CFE-466F-95CD-A7C812A91A8C,"AI prompt: I am a web service that talks to you through endpoints and JSON/gRPC. Show me your code, and show me my code; I get a hello world, I move it into ultimate weapon; let AI do the Hello Worlds for you",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 161539-A30F2D1A.m4a,703671339.975817
+93054C31-BE76-47CE-B185-C7F0AAEB053F,Do creatures stop evolving at some point? Like a bell pepper didn’t evolve with a spine or muscles,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 163421-93054C31.m4a,703672461.172219
+55D79EE8-FA50-44BC-9C69-22C1C47D1041,"Note to Helior hop on the AI bandwagon so it can classify my recordings for me, I just appprove",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 163627-55D79EE8.m4a,703672587.81485
+A032FA78-AF92-4550-A58B-49424593B225,"Talking to a shrimp - with all due respect, eat all of the meat #nature; fire makes things tastier and more nutritious, but at what point will too much fire ruin it??",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 163812-A032FA78.m4a,703672692.674751
+CE58A4D9-9A19-4F85-BAFF-0676C93869EC,"Let aliens eat out unborn babies. It’s totally natural, just let it happen #radical; I’m losing my mind track that",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 164258-CE58A4D9.m4a,703672978.0859
+91975CAE-8F63-482A-BE4E-179C0A8C7C62,Addendum: aliens also wouldn’t eat our heads either; shit,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 164519-91975CAE.m4a,703673119.761573
+37270559-0E06-4789-9EEC-A639110D250A,Super high track this,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 165121-37270559.m4a,703673481.837081
+E9FA1DA4-8FC6-4188-8288-3BBCC52E9781,"What is consciousness, there is data everywhere; sound is beautiful; what other space is there between material atoms and living molecules - life is a branching out of non-living material; circle of life, you can have it all; ",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 165216-E9FA1DA4.m4a,703673536.73326
+AB65E37F-4EDE-4005-90AF-B1C6CA2EA662,The role of a philosopher ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 170145-AB65E37F.m4a,703674105.489939
+598731C7-3F0D-4732-A98C-8A91D35F47C9,Shadows are the natural FYF; Helior throwing up; ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 170743-598731C7.m4a,703674463.306421
+AC777E3C-AAA4-4B53-B63E-39CADA9501A1,ACA loving parent note on preparing for throwing up; Helior throwing up; shit; too high track this; ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 171938-AC777E3C.m4a,703675178.357783
+C83EA96D-331F-4EE4-BE27-0B69F4BD9C30,Future note AI kills us similar to how we killed the Neanderthals; I sound fucked up; Helior throwing up; shit;,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 173456-C83EA96D.m4a,703676096.256605
+16F75679-B543-4713-8725-35FC358DE446,I forgot track this; shit;,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 180003-16F75679.m4a,703677603.756639
+6EE897AF-76EE-445B-A8C3-610DC6F36B5C,I sound fucked up; shit ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 181644-6EE897AF.m4a,703678604.456445
+72BBE676-F6AB-4C3E-85EB-1D03AE188975,Conversations with the locals ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230421 205258-72BBE676.m4a,703774378.342334
+6BF4AFD5-E8A0-4F69-983C-B79FD962DB94,Recording 1129,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230422 113115-6BF4AFD5.m4a,703827075.280546
+B885FD89-47C7-4642-A350-423A85E13C5C,"Travel log; hostel first time; Amanda gf; Helior’s likes;  is it good to Gaga over people? 🤔;  app idea: track things you like/do, related to mind-map",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230422 180913-B885FD89.m4a,703850953.431597
+4F23C290-BA05-4AE8-B647-CA2819FC9247,AR; concept of layers called “lens”; humanity figured themselves out (what’s that word??);  interface design; Ultimate weapon; getting nervous around people track that;  what is that sensation called??,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230422 181152-4F23C290.m4a,703851112.510668
+EC1474F0-56AE-4D97-9F65-A33AB044EE98,"Physics; waves are everywhere and they affect us all, they speak to us; explaining reality; Ayahuasca note; fall back in line; large scale waves",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230422 182034-EC1474F0.m4a,703851634.317937
+0AE84094-6AA3-412B-8284-ADC96F74F910,"Ambience; dad note; how to kill the ego and keep it away??;  I think too much, note to Helior; we’ll-articulated; ",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230422 182520-0AE84094.m4a,703851920.879072
+0DF8E5D6-4C4C-46E6-B46E-9F5C1D623A5E,"Dad simulator; anxiousness meter; with/without therapy, it impacts rate of change ",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230422 184018-0DF8E5D6.m4a,703852818.929874
+FBA9EDBD-A814-41A8-BEE1-D7F290298C20,Always be processing.. [glenn Gerry Glenn Ross reference],/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230422 192130-FBA9EDBD.m4a,703855290.331336
+592138E1-81C2-4B67-BB64-0922346CC6EE,Past-self talking to future-self,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230422 194741-592138E1.m4a,703856861.086257
+703BAE02-FD05-414C-A9C2-4212ADCB22F2,Recording 1137,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230422 200628-703BAE02.m4a,703857988.623452
+5FADAF3A-F96D-41B9-8B8D-EA04412BD6CB,Jersey shore was the first sighting of a millennial. Sorry. ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230422 200655-5FADAF3A.m4a,703858015.467434
+5083742B-3F59-4384-AA51-9CD335F4FE9C,Conversation with locals - JM psychiatrist ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230423 095121-5083742B.m4a,703907481.888473
+63D105EF-2B91-44F8-8D07-395E5DFECA1C,❌ Thought about Tony,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 162308-63D105EF.m4a,703671788.801801
+B6FB8DB9-A2BA-4ABD-9003-DDFB297853A3,❌ Note to Helior about nature,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230420 160101-B6FB8DB9.m4a,703670461.615788
+0EA6174F-182F-4052-AECD-D722C57493D8,Recording 1096,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230423 123533-0EA6174F.m4a,703917333.642082
+3EAF7B4B-112C-4F8B-B16A-68681D74CDB5,Kawili Resort,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230423 131527-3EAF7B4B.m4a,703919727.546755
+3C61D611-C02B-46B9-9F1B-DC73E9A44E67,Recording 1109,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230423 165723-3C61D611.m4a,703933043.416316
+45DB563B-0BFD-4662-BDAB-1AF8D2F3EC5A,Recording 1110,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230423 180438-45DB563B.m4a,703937078.309738
+ECA592AB-2F54-4A91-8479-79A062D30F43,Recording 1111,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230423 233539-ECA592AB.m4a,703956939.392009
+D2F95F83-1D83-4341-B606-260F9CE1B0CC,Recording 1112,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230424 065931-D2F95F83.m4a,703983571.256823
+6C4F6C96-A4F4-4F65-9176-2686888017C5,Recording 1113,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230424 155211-6C4F6C96.m4a,704015531.472484
+47CBDB54-1BE2-4ED5-9AF2-DCCBEA56624D,Recording 1114,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230424 195257-47CBDB54.m4a,704029977.167676
+373A538B-97DB-40CA-BE3B-1E7423B5FECD,Recording 1115,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230424 220020-373A538B.m4a,704037620.584983
+7AD4058F-FEF2-4BE6-8C69-744962172145,Kawili Resort 2,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230425 230251-7AD4058F.m4a,704127771.77235
+0CC1B6DD-247D-4101-AD10-6DADBD44757A,Kawili Resort 3,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230425 230346-0CC1B6DD.m4a,704127826.563924
+187145C1-E091-421E-BFEB-40472511F49D,Kawili Resort 4,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230425 230430-187145C1.m4a,704127870.938075
+7117893A-E2FB-4BD8-A7EF-4801A171D393,Kawili Resort 5,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230425 230547-7117893A.m4a,704127947.440376
+32F6675C-C193-422D-8A20-B1D513CF0698,Kawili Resort 6,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230425 230738-32F6675C.m4a,704128058.429155
+1FDDFEDB-D5F8-4D97-B0AE-089D2E2343C2,Kawili Resort 7,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230425 235342-1FDDFEDB.m4a,704130822.534736
+1CC6C2D7-99EA-4A34-85D2-FFC7E6ED8572,Kawili Resort 8,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230425 235811-1CC6C2D7.m4a,704131091.409327
+6D1EC394-3644-4B86-B45A-CEA4C63681F0,Kawili Resort 9,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230426 000934-6D1EC394.m4a,704131774.70187
+B24EC80A-732E-4656-B778-29B2CCFC8368,Kawili Resort 10,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230426 002006-B24EC80A.m4a,704132406.271826
+8D8801C0-B486-4BBC-981A-8A3CA20E28E0,Kawili Resort 11,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230426 002839-8D8801C0.m4a,704132919.134649
+0D5C0E21-C0A6-443E-86E4-E47BA7141499,Kawili Resort 12,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230426 003111-0D5C0E21.m4a,704133071.024676
+9CB7A467-53C2-4D41-8738-5440168FA75A,Kawili Resort 13,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230426 003411-9CB7A467.m4a,704133251.76644
+7A213093-4787-429C-9039-56B13FF4054B,Kawili Resort 14,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230426 003904-7A213093.m4a,704133544.071644
+37FA7964-DAF6-4D64-B930-EC235457C42D,Recording 1116,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230426 184543-37FA7964.m4a,704198743.591888
+70D0EFB2-08B1-4322-B3A0-33ACCB4C804A,Recording 1096,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230427 195841-70D0EFB2.m4a,704289521.207442
+C5115332-0871-4AE5-AA1C-70DBCA37E32D,Recording 1109,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230427 221208-C5115332.m4a,704297528.932925
+8433050E-ABFE-44F8-AE8B-2566644B8FDE,Recording 1110,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230427 221855-8433050E.m4a,704297935.129262
+A2E89EF7-495E-4F70-A3CE-675E57ADE63A,Recording 1111,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230427 222937-A2E89EF7.m4a,704298577.668779
+FD148717-F5DA-4FBD-86C6-743D147DACAB,Recording 1112,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230427 223208-FD148717.m4a,704298728.512185
+9A5569A9-1AE6-45BE-A73C-5F672FB03A9E,Recording 1113,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230427 224039-9A5569A9.m4a,704299239.414288
+C78616D7-196B-466B-9093-2DC4B30AEAAA,Sayak Airport Road,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230427 230355-C78616D7.m4a,704300635.717904
+E55BAFE3-7180-4C81-B9D4-4FFDC053F39E,Recording 1114,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230427 230645-E55BAFE3.m4a,704300805.425946
+D0F6BB47-11A4-4996-8740-35E658B37F3F,Recording 1115,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230427 231427-D0F6BB47.m4a,704301267.807096
+D33D46D6-2C25-477D-AB69-49580ABEA03B,Sayak Airport Road 2,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230427 231727-D33D46D6.m4a,704301447.07917
+015EE939-106D-4477-957D-ABB2A451CB85,Sayak Airport Road 3,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230427 232745-015EE939.m4a,704302065.753814
+2EF5367C-56F3-4CA2-B344-604F7F938980,Sayak Airport Road 4,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230427 233853-2EF5367C.m4a,704302733.749982
+0F1149A7-E056-4AD0-B6B1-E08FC4B823A5,Recording 1116,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230428 105336-0F1149A7.m4a,704343216.146459
+044222D0-C039-4AD3-BD7A-FC165CC47E8E,Recording 1117,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230428 171009-044222D0.m4a,704365809.880946
+43352497-F7BC-4057-A64C-3FAD4FDA6B3D,Recording 1118,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230428 180108-43352497.m4a,704368868.014129
+DF128E15-1E95-487D-98D5-B6E4E9B1CE77,Recording 1119,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230429 154613-DF128E15.m4a,704447173.009757
+C527152B-D901-4933-8DBE-F6C092ABD607,ACA note: my sister deserves a lot of love,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230430 011930-C527152B.m4a,704481570.763621
+90E3DCA7-8D24-490C-B4B2-E6ED4D7566EF,Recap on Philippines,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230430 012147-90E3DCA7.m4a,704481707.165786
+86E0FCB7-F8E7-4FD1-8849-F9E38BC82CB7,About Bianca,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230430 012458-86E0FCB7.m4a,704481898.632004
+BFAA2DE7-A9F0-4397-9E0A-925688F3E417,On making/keeping friends,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230430 020336-BFAA2DE7.m4a,704484216.786714
+30A542F0-D663-4F93-A3E0-E700BB46D505,Recording 1124,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230430 021849-30A542F0.m4a,704485129.179045
+F19BDC0F-2E23-4876-BCEA-48D65C793A13,App Idea: Movie night with everyone,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230430 022020-F19BDC0F.m4a,704485220.571713
+08DF62FC-6D72-434F-9EE5-58822AF0F948,Recording 1126,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230429 112504-08DF62FC.m4a,704485504.747575
+4ADE435C-665A-4B1C-AEB2-5B2556EFA8E7,Recording 1127,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230430 190009-4ADE435C.m4a,704545209.137597
+BD9F713D-EBAF-4E27-B993-7F4E8FAA0B53,Recording 1128,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230430 191347-BD9F713D.m4a,704546027.135677
+76835EF0-6078-4F76-8B24-BBB51A9D43A3,Recording 1129,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230501 005627-76835EF0.m4a,704566587.209801
+909465E6-C084-4701-BD30-3C0CE57E9E5F,Recording 1130,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230430 105605-909465E6.m4a,704570165.56361
+093E3758-8694-41A7-84FC-F6BDBE47419E,Recording 1131,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230430 214052-093E3758.m4a,704608852.731978
+6C31F6AD-2AA0-4596-A15B-83F9CF3FEE99,Recording 1132,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230430 224953-6C31F6AD.m4a,704612993.299263
+4E7D3383-8A83-4E80-885E-CCB88A24332D,Note to self; remember to breathe (and relax) - you were called out on this,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230501 004215-4E7D3383.m4a,704619735.005847
+20E4EE0B-4D61-4FB7-8C34-36C0FD9C8069,Shoppesville; saving lives,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230501 160400-20E4EE0B.m4a,704621040.438338
+CADD0B70-4ED6-4EC8-9727-72A4D006094C,Saving lives; trim,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230501 163842-CADD0B70.m4a,704623122.344349
+B332110D-A074-40CE-B43B-768D2DD7B560,Mirador; start working on it,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230502 231400-B332110D.m4a,704787240.095989
+3E543F9F-50A7-4274-9D64-79DE344DC3C5,"Business idea; memento as an input hub, pipe to different outputs; diverse set of outputs, too; inspiration; location data; ",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230502 231416-3E543F9F.m4a,704787256.052818
+06F349E5-2FCB-4D81-A4E8-EC3983BD6A68,Night wall; shoes mounted on wall behind a curtain; ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230502 232355-06F349E5.m4a,704787835.913882
+B2C8B486-501F-4B66-8AFD-BA92DF8E9D3F,AI-supported pseudo-language to generate implementations ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230502 232631-B2C8B486.m4a,704787991.381126
+406E720A-8D8E-45C6-9540-33042FEF5B6C,Note to Helior; capture TODOs and delegate to others (to work together); project management,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230502 232757-406E720A.m4a,704788077.050063
+BEEEDD1D-6E21-43FE-A01E-ED9264ECB461,"AI tip, know your intent; if you’re shaping your future, you have to first know your intention; ",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230502 232927-BEEEDD1D.m4a,704788167.669374
+9021E260-3E29-410F-881F-577D10AED9DB,Memento; ingest and auto-tag; create chapters with using snapshot feature; segments are used for shareable content for various outputs,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230502 233201-9021E260.m4a,704788321.935519
+8DA204A1-4E4C-45B3-BE04-5CFCF86C08A5,Project management; inspiration; ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230502 233521-8DA204A1.m4a,704788521.500191
+56351001-2055-47B5-BD87-A6D000DECFAE,"Visualizing, generations; I am old now",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230502 234529-56351001.m4a,704789129.215008
+B39EFFA0-6A4E-4943-977F-1D104E1DAF46,Mirador; track interactions; monitor distancing; ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230503 100529-B39EFFA0.m4a,704826329.496339
+8FF4B14B-4B8E-4E3F-8EC9-D6D4AF7D77E8,Mom: Hemotologist,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230503 103438-8FF4B14B.m4a,704828078.361749
+F5CD92A2-F2B9-4627-961C-A2AAC909565A,Contents idea; human drone; Anthony Bourdain,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230503 234101-F5CD92A2.m4a,704875261.806787
+FE114E5D-0DEA-4F93-8E3A-C4C07F195C35,Memento ui; ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230503 235557-FE114E5D.m4a,704876157.438074
+853DD089-57C0-4C87-8A18-C7A4EB1517E0,"AI prompt; provide the API in my system so it implements code to integrate in my system; anything methods missing, it can propose what it needs and generate the code/tests for it",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230504 001426-853DD089.m4a,704877266.049928
+1CC75DDC-2243-454C-9B45-686A2FC901FE,15480 Hesperia Rd 190,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230504 133637-1CC75DDC.m4a,704925397.509208
+8BAC11B0-A8C8-4C05-8188-AFE309BA6A0E,Philosophy of moneys,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230504 133831-8BAC11B0.m4a,704925511.531586
+A429800F-6993-4235-9094-FBC40F677B4F,Critical parent; solution; ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230504 133929-A429800F.m4a,704925569.463387
+539DCF5D-CD20-49C3-9200-99438B9554D9,"FYF; mvp; scarcity of time, eliminate what does not serve you",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230504 134139-539DCF5D.m4a,704925699.954222
+71641AC0-86AB-46EA-BBF7-8E490A4CF81F,15480 Hesperia Rd; critical parent; ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230504 141641-71641AC0.m4a,704927801.781148
+9ED5E796-2344-47D6-84AA-3489F37A4BEE,Kassi; ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230504 142936-9ED5E796.m4a,704928576.135469
+F4620360-7564-491E-B9CC-955AA9656975,"Ultimate weapon; house 3.0: all data in your home server; subscription idea for apps; runs on server, and laptop for more capable client; todo; name this; critical parent ",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230505 005515-F4620360.m4a,704966115.533414
+49F262FF-F2EC-4F7C-B5F3-E4C7FC8478F5,Ultimate weapon; boilerplate everything as much as possible. But let f,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230505 012923-49F262FF.m4a,704968163.055911
+1D02CE0B-FD0B-46D7-875F-C70A48FCE335,Ultimate weapon; tags; ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230505 013152-1D02CE0B.m4a,704968312.090525
+099B4D45-7A02-4BFF-8F38-CA455BF5DA8E,Epistemo; also capture knowledge gaps; natural hierarchy of knowledge ,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230505 113512-099B4D45.m4a,705004512.995715
+B3233213-30E3-427B-8CBC-060773A7537B,15480 Hesperia Rd 195; aca; critical parent; project management; result in a benifit; living in joy; inspiration;,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230505 153954-B3233213.m4a,705019194.616627
+723DDC34-7FB0-4291-A1BC-D53CB3D3BF6C,Project management; asking for help; track person transactions;,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230505 155605-723DDC34.m4a,705020165.598488
+32F0B1D4-5EA8-4A73-AC1C-096C0E2512D8,Trim: ACA loving parent,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230505 161446-32F0B1D4.m4a,705021286.469755
+E0CF48FE-68E4-4CDD-A3F6-1D6C470BA24C,15480 Hesperia Rd 195,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230505 185236-E0CF48FE.m4a,705030756.308755
+CFE60182-2C4F-46DB-9F9F-3DF22670BD1F,Eva Dell Park,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230505 190821-CFE60182.m4a,705031701.288509
+1E81EDFD-558F-4548-A1D3-9A60611C275D,Personal wave function; collecting patterns of my data; but for what purpose?; rant,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230505 190836-1E81EDFD.m4a,705031716.630914
+6F81D95C-A45B-4B43-BC1D-4F0A6835DFBB,"Dear Jackie, you are a gift. ",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230506 064803-6F81D95C.m4a,705073683.739311
+85B1DDC5-47B6-47D6-9317-22137A7E4151,Pray for Jackie,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230506 070052-85B1DDC5.m4a,705074452.757428
+739DA3D1-9BC4-4D73-83DD-5300EC99A750,"Hierarchy of knowledge: Critical Thinking, Epistimology, Belief Systems, History, Economics, Philosophy, then current events (primary source reporting)",/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230506 131951-739DA3D1.m4a,705097191.928173
+8FACFA49-CC24-4621-B908-E2AE7F32B097,Government Bots exist to track Internet traffic,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230507 121127-8FACFA49.m4a,705179487.500709
+B6831741-CCB0-46F6-8A73-BF355BE757C5,Recording 1136,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230507 181317-B6831741.m4a,705201197.548416
+BA7E7BE6-B373-43BB-AABF-2928254D3020,Hanging out with Rico,/Users/helior/Library/Application Support/com.apple.voicememos/Recordings/20230507 224454-BA7E7BE6.m4a,705217494.510116
