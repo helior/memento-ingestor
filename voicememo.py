@@ -101,7 +101,7 @@ try:
     r = requests.post('http://localhost:8000/api/mementooriginalaudio/', files=files, data=data)
     try:
       r.raise_for_status()
-      print('✅ {}'.format(row['~external_id']))
+      print('✅ {}'.format(row['~label']))
 
       # On success, add ID to tracked IDs
       tracked_rows.append(row)

@@ -20,7 +20,8 @@ def on_created(event):
 
   try:
     basename = os.path.basename(event.src_path)
-
+    print('— – - • - – — ')
+    print(basename)
     # Probe
     probe = ffprobe(event.src_path)
 
@@ -46,19 +47,20 @@ def on_created(event):
       # print('— – - • - – — ')
       # Log: Sucessful upload.
       # TODO: Log event
-      print('— – - • - – — ')
-      for key, value in probe.items():
-        print('🔺 {}:'.format(key))
+
+      # for key, value in probe.items():
+        # print('🔺 {}:'.format(key))
         # print(dump(probe, Dumper=Dumper))
       # print('— – - • - – — ')
 
       # Move.
-      processed_path = './processed' # TODO: or from configuration
-      destination_path = os.path.abspath(os.path.join(processed_path, basename))
-      os.rename(event.src_path, destination_path)
+      # processed_path = './processed' # TODO: or from configuration
+      # destination_path = os.path.abspath(os.path.join(processed_path, basename))
+      # os.rename(event.src_path, destination_path)
       # os.remove(event.src_path) # TODO: remove files instead, but only after you've detected duplicates
       resolved_path = './processed' # TODO: or from configuration
     except requests.exceptions.HTTPError as err:
+      print('❗️Error❗️')
       print(err)
       resolved_path = './failures' # TODO: or from configuration
 
