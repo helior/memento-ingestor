@@ -98,6 +98,8 @@ def main():
   try:
     for row in pending_rows:
       probe = ffprobe(row['~path'])
+      if not probe:
+        continue
       created_time = parser.parse(probe.get('format').get('tags').get('creation_time'))
       duration = probe.get('format').get('duration')
       start_time = created_time - datetime.timedelta(seconds=float(duration))
@@ -109,7 +111,7 @@ def main():
       }
       files = {'audioFile': open (row['~path'], 'rb')}
 
-      r = requests.post('http://localhost:8000/api/mementooriginalaudio/', files=files, data=data, headers={'Authorization': 'Bearer {}'.format(token)})
+      r = requests.post('http://192.168.1.214:8000/api/mementooriginalaudio/', files=files, data=data, headers={'Authorization': 'Bearer {}'.format(token)})
       try:
         r.raise_for_status()
         print('✅ {}'.format(row['~label']))
