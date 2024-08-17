@@ -10,7 +10,7 @@
       "request": "launch",
       "program": "${file}",
       "console": "integratedTerminal",
-      "args": "--token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzEyMDg0ODI1LCJpYXQiOjE3MTE4MjU2MjUsImp0aSI6ImI1ZDRlOWE5YzhmMTQ3ZDE4OGUzMWE3NzhiMWE1YjU0IiwidXNlcl9pZCI6MX0.aVfEAitS4KtRUFno-L2Rw6cqe6A2AmIe8H8GJb_4BsQ"
+      "args": "--token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI0MTEzMTA0LCJpYXQiOjE3MjM4NTM5MDQsImp0aSI6ImFiMzdmNDUxMzIyMjQyY2FiNzQxMDc1MjFhMWZhNzc0IiwidXNlcl9pZCI6Im1lQGhlbGlvci5pbmZvIn0.LzjIG4lE-d3ti9Qhvtxo71oDJNdRB_2uWkcaECoQwS8"
     },
     {
       "name": "Python: Current File",

@@ -99,6 +99,8 @@ def main():
     for row in pending_rows:
       probe = ffprobe(row['~path'])
       if not probe:
+        print('🤷‍♂️ No probe data for "{}". Skipping...'.format(row['~path']))
+        print('DEBUG: `open -R {}'.format(row['~path'].replace(' ', '\ ')))
         continue
       created_time = parser.parse(probe.get('format').get('tags').get('creation_time'))
       duration = probe.get('format').get('duration')
@@ -111,7 +113,7 @@ def main():
       }
       files = {'audioFile': open (row['~path'], 'rb')}
 
-      r = requests.post('http://192.168.1.214:8000/api/mementooriginalaudio/', files=files, data=data, headers={'Authorization': 'Bearer {}'.format(token)})
+      r = requests.post('http://127.0.0.1:8000/api/mementooriginalaudio/', files=files, data=data, headers={'Authorization': 'Bearer {}'.format(token)})
       try:
         r.raise_for_status()
         print('✅ {}'.format(row['~label']))
